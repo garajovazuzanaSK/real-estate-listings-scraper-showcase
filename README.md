@@ -81,7 +81,7 @@ This has been run repeatedly against the live site over six weeks (Aug 12 → Se
   url='NA' <-> stav_kod='sold': OK - exact match
 ```
 
-**Real SQL query result** (SQLite, 574-row snapshot):
+**Real SQL query result** (SQLite, 574-row snapshot, Sept 22, 2026):
 
 ```sql
 -- In the source data, stav_kod = 'V' denotes an available unit.
