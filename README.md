@@ -15,12 +15,12 @@ An end-to-end Python data pipeline that monitors new-build flat listings on a Sl
         ▼                   ▼                    ▼                 ▼
 ┌───────────────┐  ┌──────────────────┐  ┌────────────────┐  ┌─────────────┐
 │data validation│  │  SQLite storage  │  │ Excel report   │  │ PNG charts  │
-│ (logging)     │  │ (SQL queries)    │  │ (live formulas)│  │(matplotlib) │
-└───────────────┘  └────────────────┘  └────────────────┘  └─────────────┘
+│ (logging)     │  │   (SQL queries)  │  │ (live formulas)│  │(matplotlib) │
+└───────────────┘  └──────────────────┘  └────────────────┘  └─────────────┘
         │                   │
         ▼                   ▼
 ┌──────────────┐   ┌────────────────────────────┐
-│Streamlit app │   │  change detection         │
+│ Streamlit app│   │     change detection       │
 │ (interactive)│   │ (day-over-day price diffs) │
 └──────────────┘   └────────────────────────────┘
 ```
