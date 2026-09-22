@@ -84,11 +84,11 @@ This has been run repeatedly against the live site over six weeks (Aug 12 → Se
 **Real SQL query result** (SQLite, 574-row snapshot):
 
 ```sql
-SELECT etapa, ROUND(AVG(cena_eur), 0) AS priemerna_cena, COUNT(*) AS pocet
+SELECT etapa, ROUND(AVG(cena_eur), 0) AS avg_price, COUNT(*) AS units
 FROM byty
 WHERE stav_kod = 'V'
 GROUP BY etapa
-ORDER BY priemerna_cena;
+ORDER BY avg_price;
 ```
 
 | Construction phase | Avg. price (€) | Available units |
