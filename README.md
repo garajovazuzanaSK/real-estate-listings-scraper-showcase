@@ -84,6 +84,7 @@ This has been run repeatedly against the live site over six weeks (Aug 12 → Se
 **Real SQL query result** (SQLite, 574-row snapshot):
 
 ```sql
+-- In the source data, stav_kod = 'V' denotes an available unit.
 SELECT etapa, ROUND(AVG(cena_eur), 0) AS avg_price, COUNT(*) AS units
 FROM byty
 WHERE stav_kod = 'V'
