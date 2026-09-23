@@ -93,7 +93,7 @@ ORDER BY avg_price;
 ```
 
 | Construction phase | Avg. price (€) | Available units |
-|---|---|---|
+|---|:---:|:---:|
 | Residence | 224 652 | 3 |
 | UP | 267 692 | 16 |
 | Plaza | 335 796 | 65 |
@@ -127,7 +127,7 @@ Price scales close to linearly with interior area, with a visible premium cluste
 | S109 | S | 1. | J | 2 | 43.78 | 18.23 | 62.01 | 258 026     | 5 893.70    | 2027 | Available |
 | S115 | S | 1. | S | 2 | 48.53 | 46.10 | 48.53 | 232 799     | 4 797.01    | 2027 | Available |
 
-Orientation codes (Slovak abbreviations): S = North, J = South, V = East, Z = West; SV = Northeast, SZ = Northwest, JV = Southeast, JZ = Southwest.
+**Orientation codes (Slovak abbreviations)**: S = North, J = South, V = East, Z = West; SV = Northeast, SZ = Northwest, JV = Southeast, JZ = Southwest.
 
 ## Tech stack
 
