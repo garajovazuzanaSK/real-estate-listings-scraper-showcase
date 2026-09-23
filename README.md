@@ -138,7 +138,7 @@ Price scales close to linearly with interior area, with a visible premium cluste
 - `save_to_sqlite.py` — CSV → SQLite, with sample SQL queries
 - `create_excel_report.py` — a 2-sheet Excel report with live formulas and native charts
 - `create_charts.py` — the matplotlib charts shown above
-- `streamlit_app.py` — an interactive filterable dashboard ([live demo coming soon])
+- `streamlit_app.py` — an interactive filterable dashboard ([try the live demo](https://real-estate-listings-scraper-heigrksqnbatw3xsupu6cz.streamlit.app/))
 - `change_detection.py` — day-over-day diffing with dated snapshots and change reports
 
 Get in touch if you'd like a walkthrough.
