@@ -117,7 +117,7 @@ Price scales close to linearly with interior area, with a visible premium cluste
 *(8 of 574 tracked listings)*
 
 | Flat code | Building | Floor | Orientation | Rooms | Interior (m²) | Exterior (m²) | Total (m²) | Price (€)      | €/m² interior    | Completion year | Status |
-|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|:---:|---|---|---|---|---|---|:---:|---|
 | P14 | P | 1. | Z | 1.5 | 38.55 | 27.43 | 65.98 | 224 427    | 5 821.71    | 2026 | Available |
 | P16 | P | 1. | V | 1.5 | 38.55 | 47.11 | 85.66 | 246 944    | 6 405.81    | 2026 | Available |
 | R13 | R | 1. | J | 1 | 31.91 | 30.48 | 62.39 | 202 584     | 6 348.61    | 2026 | Available |
